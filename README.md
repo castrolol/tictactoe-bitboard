@@ -26,11 +26,7 @@ A simple sample of TicTacToe bitboard
       O: new Bitboard()
  };
   
-  var winPositions = [
-    [1, 2, 4],
-    [8, 16, 32],
-    [64, 128, 256]
-  ];
+  var winPositions = [7, 56, 73, 84, 146, 273, 292, 448];
   
   function doMove(playerId, x, y){
 
